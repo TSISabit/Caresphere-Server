@@ -1,0 +1,101 @@
+[
+  {
+    "title": "Winter Clothes Distribution 2026",
+    "description": "Providing warm clothes and blankets to underprivileged families and floating people in northern Dhaka.",
+    "category": "Relief & Aid",
+    "date": "2026-11-10T09:00:00.000Z",
+    "location": "Mirpur 10 Community Center, Dhaka",
+    "organizer": "CareSphere Youth Wing",
+    "imageUrl": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=800&q=80",
+    "targetVolunteers": 30,
+    "joinedVolunteers": 18
+  },
+  {
+    "title": "Clean City, Green Dhaka Drive",
+    "description": "Massive community cleanliness drive covering major roads, separating plastic waste and placing bins.",
+    "category": "Environment",
+    "date": "2026-11-15T08:00:00.000Z",
+    "location": "Dhanmondi Lake Walkway, Dhaka",
+    "organizer": "Green Planet Volunteers",
+    "imageUrl": "https://images.unsplash.com/photo-1618477461853-cf6ed80faba5?auto=format&fit=crop&w=800&q=80",
+    "targetVolunteers": 50,
+    "joinedVolunteers": 42
+  },
+  {
+    "title": "Free Community Health & Eye Camp",
+    "description": "General physician consultation, eye checkups, blood sugar screening and basic medicines for street children and seniors.",
+    "category": "Healthcare",
+    "date": "2026-11-20T10:00:00.000Z",
+    "location": "Rayerbazar Primary School Ground, Dhaka",
+    "organizer": "CareSphere Health Team",
+    "imageUrl": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80",
+    "targetVolunteers": 25,
+    "joinedVolunteers": 12
+  },
+  {
+    "title": "Primary School Book Donation Fair",
+    "description": "Distributing textbooks, notebooks, school bags and stationery kits among underprivileged elementary students.",
+    "category": "Education",
+    "date": "2026-11-25T11:00:00.000Z",
+    "location": "Uttara Sector 7 Public Park, Dhaka",
+    "organizer": "Teach Together BD",
+    "imageUrl": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=800&q=80",
+    "targetVolunteers": 20,
+    "joinedVolunteers": 15
+  },
+  {
+    "title": "Emergency Blood Donation Campaign",
+    "description": "Voluntary blood typing and donation drive to support emergency patients and local public hospitals.",
+    "category": "Healthcare",
+    "date": "2026-11-28T09:30:00.000Z",
+    "location": "Shahbagh Public Library Premises, Dhaka",
+    "organizer": "Red Lifeline Volunteers",
+    "imageUrl": "https://images.unsplash.com/photo-1615461066841-6116e61058f4?auto=format&fit=crop&w=800&q=80",
+    "targetVolunteers": 40,
+    "joinedVolunteers": 27
+  },
+  {
+    "title": "Urban Tree Plantation Movement",
+    "description": "Planting fruit-bearing and shade trees along school perimeters and neighborhood parks to combat urban heat.",
+    "category": "Environment",
+    "date": "2026-12-05T07:30:00.000Z",
+    "location": "Purbachal Sector 4, Dhaka",
+    "organizer": "CareSphere Eco Volunteers",
+    "imageUrl": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80",
+    "targetVolunteers": 35,
+    "joinedVolunteers": 20
+  },
+  {
+    "title": "Food Rescue & Slum Meal Sharing",
+    "description": "Collecting surplus banquet food and distributing freshly packed hygienic meals to impoverished families.",
+    "category": "Relief & Aid",
+    "date": "2026-12-12T13:00:00.000Z",
+    "location": "Korail Basti Community Hall, Dhaka",
+    "organizer": "Hunger Free Dhaka",
+    "imageUrl": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=800&q=80",
+    "targetVolunteers": 30,
+    "joinedVolunteers": 29
+  },
+  {
+    "title": "Stray Animal Care & Vaccination Day",
+    "description": "Providing rabies vaccines, minor medical dressing, and food supplies to stray dogs and cats across the neighborhood.",
+    "category": "Animal Welfare",
+    "date": "2026-12-18T10:00:00.000Z",
+    "location": "Gulshan 2 Lake Park, Dhaka",
+    "organizer": "Paws & Claws BD",
+    "imageUrl": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?auto=format&fit=crop&w=800&q=80",
+    "targetVolunteers": 15,
+    "joinedVolunteers": 9
+  },
+  {
+    "title": "Elderly Care Home Visit & Recreational Eve",
+    "description": "Spending quality time, playing indoor games, sharing warm snacks and musical sessions with elderly shelter residents.",
+    "category": "Community Care",
+    "date": "2026-12-24T15:00:00.000Z",
+    "location": "Prabin Nibash, Agargaon, Dhaka",
+    "organizer": "CareSphere Companions",
+    "imageUrl": "https://images.unsplash.com/photo-1516307365426-bea591f05011?auto=format&fit=crop&w=800&q=80",
+    "targetVolunteers": 20,
+    "joinedVolunteers": 14
+  }
+]
