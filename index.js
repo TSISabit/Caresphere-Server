@@ -1,14 +1,63 @@
+import dotenv from "dotenv";
+dotenv.config();
+
+import dns from "node:dns";
+dns.setServers(["8.8.8.8", "8.8.4.4"]);
+
 import express from 'express';
 import cors from 'cors';
-import dotenv from 'dotenv';
+// import dotenv from 'dotenv';
 import { MongoClient, ObjectId, ServerApiVersion } from 'mongodb';
 import jwt from 'jsonwebtoken';
 import bcrypt from 'bcryptjs';
 
-dotenv.config();
-
 const app = express();
 const port = process.env.PORT || 5000;
+app.post("/api/auth/google", async (req, res) => {
+  try {
+    const { name, email, photoUrl } = req.body;
+
+    if (!email) {
+      return res.status(400).json({ message: "Email is required" });
+    }
+
+    const usersCollection = db.collection("users");
+    let user = await usersCollection.findOne({ email });
+
+    if (!user) {
+      const newUser = {
+        name: name || "Google User",
+        email,
+        photoUrl: photoUrl || "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80",
+        role: "volunteer",
+        authProvider: "google",
+        createdAt: new Date(),
+      };
+      const result = await usersCollection.insertOne(newUser);
+      user = { _id: result.insertedId, ...newUser };
+    }
+
+    const token = jwt.sign(
+      { id: user._id, email: user.email, name: user.name },
+      process.env.JWT_SECRET || "caresphere_jwt_secret_token_key_2026",
+      { expiresIn: "7d" }
+    );
+
+    res.status(200).json({
+      message: "Google login successful",
+      token,
+      user: {
+        id: user._id,
+        name: user.name,
+        email: user.email,
+        photoUrl: user.photoUrl,
+      },
+    });
+  } catch (error) {
+    console.error("Google Auth Error:", error);
+    res.status(500).json({ message: "Internal server error", error: error.message });
+  }
+});
 
 app.use(cors({
   origin: [
